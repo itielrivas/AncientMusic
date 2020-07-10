@@ -10,7 +10,11 @@ describe('workspace-project App', () => {
 
   it('should display welcome message', () => {
     page.navigateTo();
+<<<<<<< HEAD
     expect(page.getTitleText()).toEqual('AncientMusic app is running!');
+=======
+    expect(page.getTitleText()).toEqual('ancientMusic app is running!');
+>>>>>>> 423064f... Version 2.0
   });
 
   afterEach(async () => {
