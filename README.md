@@ -1,10 +1,6 @@
 # AncientMusic
 
-<<<<<<< HEAD
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.3.
-=======
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.8.
->>>>>>> 423064f... Version 2.0
 
 ## Development server
 

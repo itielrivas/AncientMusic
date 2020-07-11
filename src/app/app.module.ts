@@ -3,21 +3,12 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-<<<<<<< HEAD
-import { InicioComponent } from './home/inicio/inicio.component';
-import { LoginComponent } from './home/login/login.component';
-import { RegisterComponent } from './home/register/register.component';
-import { ContactComponent } from './home/contact/contact.component';
-import { FaqComponent } from './home/faq/faq.component';
-import { AboutComponent } from './home/about/about.component';
-import { HomeComponent } from './home/home/home.component';
-import { NavbarComponent } from './home/navbar/navbar.component';
-=======
 import { LandingComponent } from './pages/landing/landing.component';
 import { LoginComponent } from './pages/login/login.component';
 import { RegisterComponent } from './pages/register/register.component';
 import { HomeComponent } from './pages/home/home.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
+import { AdminComponent } from './pages/admin/admin.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 import { AngularFireModule } from '@angular/fire';
@@ -27,35 +18,28 @@ import { AngularFireAuthModule } from '@angular/fire/auth';
 import { environment } from '../environments/environment';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
-//Angular material
+// Angular material
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatIconModule } from '@angular/material/icon';
+import { MatCardModule } from '@angular/material/card';
+import { MatTableModule } from '@angular/material/table';
+import { MatPaginatorModule } from '@angular/material/paginator';
+import { NewproductComponent } from './pages/newproduct/newproduct.component';
 
->>>>>>> 423064f... Version 2.0
 
 @NgModule({
   declarations: [
     AppComponent,
-<<<<<<< HEAD
-    InicioComponent,
-    LoginComponent,
-    RegisterComponent,
-    ContactComponent,
-    FaqComponent,
-    AboutComponent,
-=======
     LandingComponent,
     LoginComponent,
     RegisterComponent,
->>>>>>> 423064f... Version 2.0
     HomeComponent,
-    NavbarComponent
+    NavbarComponent,
+    AdminComponent,
+    NewproductComponent
   ],
   imports: [
     BrowserModule,
-<<<<<<< HEAD
-    AppRoutingModule
-=======
     AppRoutingModule,
     FormsModule,
     ReactiveFormsModule,
@@ -64,8 +48,10 @@ import { MatIconModule } from '@angular/material/icon';
     AngularFireAuthModule,
     BrowserAnimationsModule,
     MatToolbarModule,
-    MatIconModule
->>>>>>> 423064f... Version 2.0
+    MatIconModule,
+    MatCardModule,
+    MatTableModule,
+    MatPaginatorModule
   ],
   providers: [],
   bootstrap: [AppComponent]

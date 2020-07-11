@@ -6,12 +6,8 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-<<<<<<< HEAD
-  title = 'AncientMusic';
-=======
   title = 'ancientMusic';
   isAuth = false;
 
   constructor() {}
->>>>>>> 423064f... Version 2.0
 }
